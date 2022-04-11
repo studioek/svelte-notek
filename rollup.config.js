@@ -8,6 +8,7 @@ import css from 'rollup-plugin-css-only';
 import { config } from 'dotenv';
 import replace from '@rollup/plugin-replace';
 import json from '@rollup/plugin-json'
+import {reactivePreprocess} from 'svelte-reactive-preprocessor';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -54,8 +55,9 @@ export default {
 		svelte({
 			compilerOptions: {
 				// enable run-time checks when not in production
-				dev: !production
-			}
+				dev: true
+			},
+			preprocess: reactivePreprocess()
 		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance

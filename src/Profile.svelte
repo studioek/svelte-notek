@@ -82,7 +82,7 @@
         }
 
     }
-</script>
+    </script>
 
 <form use:getProfile class="form-widget" on:submit|preventDefault={updateProfile}>
     <Avatar bind:path={avatar_url} on:upload={updateProfile} />

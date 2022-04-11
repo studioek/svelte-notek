@@ -13,9 +13,11 @@
 	supabase.auth.onAuthStateChange((_, session) => {
 		user.set(session.user)
 	})
+
+	document.title = "Svelte-NotEK"
 </script>
 
-<div class="container">
+<div>
 	<h1>Svelte-NotEK</h1>
 	{#if $user}
 		<Profile />
@@ -23,3 +25,10 @@
 		<Auth />
 	{/if}
 </div>
+<style>
+	:global(body) {
+		background-color: rebeccapurple;
+		color: white;
+	}
+	
+</style>
