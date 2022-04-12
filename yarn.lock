@@ -171,7 +171,7 @@
   dependencies:
     "@types/node" "*"
 
-acorn@^8.0.4, acorn@^8.5.0:
+acorn@^8.5.0:
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
@@ -367,11 +367,6 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-escape-string-regexp@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
-  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
-
 estree-walker@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.6.1.tgz#53049143f40c6eb918b23671d1fe3219f3a1b362"
@@ -382,7 +377,7 @@ estree-walker@^1.0.1:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
   integrity sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==
 
-estree-walker@^2.0.1, estree-walker@^2.0.2:
+estree-walker@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
@@ -511,7 +506,7 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-is-reference@^1.1.4, is-reference@^1.2.1:
+is-reference@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/is-reference/-/is-reference-1.2.1.tgz#8b2dac0b371f4bc994fdeaba9eb542d03002d0b7"
   integrity sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==
@@ -537,20 +532,10 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-json-stringify-safe@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
-  integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
-
 kleur@^4.1.4:
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.4.tgz#8c202987d7e577766d039a8cd461934c01cda04d"
   integrity sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==
-
-linenumber@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/linenumber/-/linenumber-1.0.1.tgz#e45aba6ee50ec01626773c89224a8b46d0b2d77d"
-  integrity sha512-g7x+bxzGaJ7yUk1chFXmY4NT1oIiSQREUs33M29cjDPFUP1W/dlM3YGD1cR7qeSehp5TEpxAFP0L+Rpk3nUKzw==
 
 livereload-js@^3.3.1:
   version "3.3.3"
@@ -666,14 +651,6 @@ path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
-
-periscopic@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/periscopic/-/periscopic-2.0.3.tgz#326e16c46068172ca9a9d20af1a684cd0796fa99"
-  integrity sha512-FuCZe61mWxQOJAQFEfmt9FjzebRlcpFz8sFPbyaCKtdusPkMEbA9ey0eARnRav5zAhmXznhaQkKGFAPn7X9NUw==
-  dependencies:
-    estree-walker "^2.0.2"
-    is-reference "^1.1.4"
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2:
   version "2.3.1"
@@ -894,18 +871,7 @@ svelte-preprocess@^4.7.3:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte-reactive-preprocessor@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/svelte-reactive-preprocessor/-/svelte-reactive-preprocessor-0.8.0.tgz#7f7e69ea9a4da274395890eb596dca03d3e68a53"
-  integrity sha512-gh24HA44avC+WcEUHdd8P76HtkeXW2YdF6iE72r+yowr6OMXOo509zKjydEcpwIFjzilcN4zIlRiy8/k9ba0BA==
-  dependencies:
-    acorn "^8.0.4"
-    escape-string-regexp "^4.0.0"
-    json-stringify-safe "^5.0.1"
-    linenumber "^1.0.1"
-    periscopic "^2.0.3"
-
-svelte@^3.12.0:
+svelte@^3.47.0:
   version "3.47.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.47.0.tgz#ba46fe4aea99fc650d6939c215cd4694f5325a19"
   integrity sha512-4JaJp3HEoTCGARRWZQIZDUanhYv0iyoHikklVHVLH9xFE9db22g4TDv7CPeNA8HD1JgjXI1vlhR1JZvvhaTu2Q==

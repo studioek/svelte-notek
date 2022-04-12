@@ -17,18 +17,24 @@
 	document.title = "Svelte-NotEK"
 </script>
 
+<header class="navbar">
+	<section class="navbar-section">
+		<a href="/" class="navbar-brand mr-2">
+			<h1>NotEK</h1>
+		</a>
+	</section>
+	<section class="navbar-section">
+		<div class="input-group input-inline">
+			
+		</div>
+
+	</section>
+</header>
+
 <div>
-	<h1>Svelte-NotEK</h1>
 	{#if $user}
 		<Profile />
 	{:else}
 		<Auth />
 	{/if}
 </div>
-<style>
-	:global(body) {
-		background-color: rebeccapurple;
-		color: white;
-	}
-	
-</style>
